@@ -54,10 +54,10 @@ export default class BoardScene extends Phaser.Scene {
 
   preload() {
     // Load The Assets
-    this.load.image("num_btn", "../assets/images/num-btn.png");
-    this.load.audio("wrong", "../assets/audio/wrong.mp3");
-    this.load.audio("correct", "../assets/audio/correct.mp3");
-    this.load.audio("over", "../assets/audio/over.mp3");
+    this.load.image("num_btn", "assets/images/num-btn.png");
+    this.load.audio("wrong", "assets/audio/wrong.mp3");
+    this.load.audio("correct", "assets/audio/correct.mp3");
+    this.load.audio("over", "assets/audio/over.mp3");
   }
 
   create() {

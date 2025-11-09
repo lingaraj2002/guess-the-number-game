@@ -9,8 +9,8 @@ export default class HomeScene extends Phaser.Scene {
 
   preload() {
     // Load The Assets
-    this.load.image("btn", "../assets/images/btn.png");
-    this.load.audio("bgm", "../assets/audio/bgm.mp3");
+    this.load.image("btn", "assets/images/btn.png");
+    this.load.audio("bgm", "assets/audio/bgm.mp3");
   }
 
   create() {
