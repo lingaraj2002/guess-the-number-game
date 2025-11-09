@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "VT323";
+  src: url("assets/font/VT323-Regular.ttf") format("truetype");
+}
+
+body {
+  background-color: #000;
+}
